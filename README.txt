@@ -1,6 +1,6 @@
 Implementation of an AI capable of playing the card game Briskola using Monte Carlo Tree Search.
 
-####################################
+_________________________________________
 HOW TO RUN:
 python montecarlo.py
 
@@ -15,8 +15,14 @@ number of visits for each card
 total reward collected for each card
 normalised rewards (reward/visits) for each card
 
-####################################
+_________________________________________
 Command:
 python 100x.py
 
 runs 100 games and returns the achieved result.
+
+_________________________________________
+In order to play against AI run
+python playVersusAI.py
+
+You will be the top player, in order to select what card to drop type 1, 2 or 3 when it's your turn.
